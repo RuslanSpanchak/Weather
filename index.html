@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HW 27</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body>
+
+	<div class="wrap">
+
+		<div class="title">Spanch<span class="title_span">Optik<span></div>
+		<!-- <img src="./img/moon.png" class="dark_mode" id="dark_mode"> -->
+
+		<div class="location">
+
+			<div class="location_top_container">
+
+				<img src="./img/placeholder.png" class="icon_10">
+				<div class="advice_title location_size">Location</div>
+
+			</div>
+
+			<div class="advice_text_container">
+
+				<p class="location_text_size">Is your city <span class="geo_location" id="geo_location"></span> ?</p>
+
+			</div>
+
+			<div class="location_bottom_container">
+
+				<div class="advice_btn location_btn" id="location_btn_yes">Yes</div>
+				<div class="advice_btn location_btn" id="location_btn_no">No</div>
+
+			</div>
+
+		</div>
+		
+		<div class="card">
+
+			<img src="./img/cloudy (1).png" class="icon_1">
+			<img src="./img/cloudy (2).png" class="icon_2">
+			<img src="./img/sun.png" class="icon_3">
+			<img src="./img/sun 2.png" class="icon_4">
+			<img src="./img/snow.png" class="icon_5">
+			<img src="./img/snowflake.png" class="icon_6">
+			
+			<div class="input_container" id="input_container">
+				
+				<span class="city_placeholder">City name</span>
+				<input type="text" class="city" id="city" name="">
+
+			</div>
+
+			<div class="weather_information_container weather_information_container_flex">
+
+				<div class="weather_information_container">
+					
+					<span class="weather_information_span weather_information_span_flex">Temperature</span>
+
+					<div class="icon_weather_information_flex">
+
+						<img src="./img/thermometer.png" class="icon_7">
+						<div class="weather_information weather_information_flex" id="temperature"></div>
+
+					</div>
+
+				</div>
+
+				<div class="weather_information_container">
+					
+					<span class="weather_information_span weather_information_span_flex">Feels like</span>
+
+					<div class="icon_weather_information_flex">
+
+						<img src="./img/thermometer (1).png" class="icon_7">
+						<div class="weather_information weather_information_flex" id="feels_like"></div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="weather_information_container">
+				
+				<span class="weather_information_span">Pressure</span>
+
+				<div class="icon_weather_information_flex">
+
+					<img src="./img/gauge.png" class="icon_8">
+					<div class="weather_information" id="pressure"></div>
+
+				</div>
+
+			</div>
+
+			<div class="weather_information_container">
+				
+				<span class="weather_information_span">Humidity</span>
+
+				<div class="icon_weather_information_flex">
+
+					<img src="./img/humidity.png" class="icon_8">
+					<div class="weather_information" id="humidity"></div>
+
+				</div>
+
+			</div>
+
+			<div class="weather_information_container">
+				
+				<span class="weather_information_span">Wind</span>
+
+				<div class="icon_weather_information_flex">
+
+					<img src="./img/wind.png" class="icon_8">
+					<div class="weather_information" id="wind"></div>
+
+				</div>
+
+			</div>
+
+			<div class="weather_information_container weather_information_container_flex">
+				
+				<div>
+
+					<span class="weather_information_span weather_information_span_flex">Sunrise</span>
+
+					<div class="icon_weather_information_flex">
+
+						<img src="./img/sunrise.png" class="icon_7">
+						<div class="weather_information weather_information_flex" id="sunrise">06:12</div>
+
+					</div>
+
+				</div>
+
+				<div>
+
+					<span class="weather_information_span weather_information_span_flex">Sunset</span>
+
+					<div class="icon_weather_information_flex">
+
+						<img src="./img/sunset.png" class="icon_7">
+						<div class="weather_information weather_information_flex" id="sunset">21:34</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="button" id="button">See the weather</div>
+
+		</div>
+
+		<div class="advice">
+
+			<img src="./img/idea.png" class="icon_9">
+			
+			<div class="advice_title">Advice for today</div>
+
+			<div class="advice_text_container">
+
+			<p class="advice_text"></p>
+
+			</div>
+
+			<div class="advice_btn" id="advice_btn">Thanks</div>
+
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src="app.js"></script>
+
+</body>
+</html>
